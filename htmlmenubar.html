@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="htmlmenubar.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="left">
+            <h1>Menu Bar</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellendus, ullam impedit dolorem fuga aspernatur aliquam commodi quis id ad voluptatem quisquam odit, inventore doloremque voluptas. Porro, at. Quidem, iusto?</p>
+
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="mid">
+            <button><a href="index.html">Home</a></button>
+            <h1>Code Snippet</h1>
+            <h3>HTML Code</h3>
+            <pre>
+
+&lt;div class="container"
+ onclick="myFunction(this)"&gt;
+    &lt;div class="bar1"&gt;&lt;/div&gt;
+    &lt;div class="bar2"&gt;&lt;/div&gt;
+    &lt;div class="bar3"&gt;&lt;/div&gt;
+/div&gt;
+            </pre> 
+
+            <h3>CSS Code</h3>
+            <pre>
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+                  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+                  
+/* Rotate first bar */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+                  
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+            </pre> 
+        </div>
+        <div class="right">
+            <div class="top"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellendus, ullam impedit dolorem fuga aspernatur aliquam commodi quis id ad voluptatem quisquam odit, inventore doloremque voluptas. Porro, at. Quidem, iusto?</p>
+            </div>
+            <div class="down"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, repellendus, ullam impedit dolorem fuga aspernatur aliquam commodi quis id ad voluptatem quisquam odit, inventore doloremque voluptas. Porro, at. Quidem, iusto?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

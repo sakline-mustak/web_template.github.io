@@ -72,7 +72,31 @@
     text-align: center;
 }
 
+#css h1{
+    color: #388087;
+    text-align: center;
+}
+
+#javascript h1{
+    color: #388087;
+    text-align: center;
+}
+
 #html ul {
+    /* background-color: blue; */
+    margin: 0 auto; /* Centers the ul horizontally */
+    width: fit-content;
+    padding-left: 0;
+}
+
+#css ul {
+    /* background-color: blue; */
+    margin: 0 auto; /* Centers the ul horizontally */
+    width: fit-content;
+    padding-left: 0;
+}
+
+#javascript ul {
     /* background-color: blue; */
     margin: 0 auto; /* Centers the ul horizontally */
     width: fit-content;
@@ -90,16 +114,41 @@ ul.html li {
     margin: 0 10px 20px;
 }
 
+ul.css li {
+    background-color: #05A8AA;
+    display: inline-block;
+    list-style-type: none;
+    width: 250px;
+    height: 350px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 0 10px 20px;
+}
+
+ul.javascript li {
+    background-color: #05A8AA;
+    display: inline-block;
+    list-style-type: none;
+    width: 250px;
+    height: 350px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 0 10px 20px;
+}
+
 .circle {
     background: #F5F5F1;
     height: 150px;
     width: 150px;
     border-radius: 50%;
     margin: 30px auto;
+    /* background-image: url("https://cdn.icon-icons.com/icons2/4194/PNG/512/hour_time_watch_clock_icon_262574.png"); */
+    
 }
 
 .items h3, p {
     text-align: center;
+    color: #FFFFFF;
 }
 
 #footer {
